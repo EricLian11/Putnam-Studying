@@ -7,8 +7,8 @@ So the midpoint of the line segment with those points as vertices is a lattice.
 have area 7/2. The height is 3, so the width is 7/3. So the fraction of the side it takes up is ((7/3)-1)/(2) = 2/3. So the ratio is 2:1.
 4. The amount each locker is toggled is equal to the number of factors they have. So a locker will be open if it has an odd number of factors.
 Only perfect squares have odd number of factors. Note 45^2 = 2025, so there are 44 perfect squares less than 2013. 
-5. f(S) is a convex set by definition, so it is its own convex hull. f(f(S)) will generate more points within the hull, and perhaps on the boundary
-but the hull will remain constant. Same with f(f(f(S)))
+5. f(S) forms the boundary of some number of polygons. f(f(S)) will fill in the interior of the boundaries. f(f(f(S))) now is equal to f(f(S)) 
+because the interior is already filled. 
 6. Same as 5?
 7. Count in to ways. LHS: Represents the number of ways to pick n people from x+y people in order. For the right side, order the x+y people randomly,
 then put a divider between the first x people and the next y people. For any k, the expression represents the number of ways to pick n people
