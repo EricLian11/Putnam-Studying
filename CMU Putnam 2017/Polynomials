@@ -1,1 +1,10 @@
+2. 
+Note that p(1) = 1 -> p(2) = 2 -> p(5) = 5 ->... which implies that p(z)-z has infinite roots which implies that p(z) - z is the zero polynomial. 
+So p(z) = z is the unique solution. 
+3. p(1) is greater than every coefficient. Let a be such that 10^a > 10*p(1). Then p(10^a) will tell you all the coefficients.
+4. If p is the zero polynomial, then it has infinite roots. Suppose p is not the zero polynomial. The question reduces to the number of roots of p
+plus the number of roots of p-1. Note that p = 1..
+5. Solved in introduction file.
+6. Take the integral of ax^3+bx^2+cx+d = 0 from 0 to 1, and set it equal to 1/2*(p(t1)+p(t2)). Solve the system for t1 and t2 to get 1/2 +- sqrt(3)/6. 
+
 
