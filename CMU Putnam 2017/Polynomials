@@ -1,1 +1,4 @@
-
+1. p(z) = z
+2. This problem uses the fact that if a polynomial has infinite roots, then it is the zero polynomial. Using the relation, we can show by induction
+that for every integer n, then p(n^2+1) = n^2+1. So the function p(x) - x has infinite roots, which means that p(x) - x is the zero polynomial. 
+So p(x) = x is the unique solution. 
