@@ -1,1 +1,13 @@
-
+Preface Problem: 
+Number the buckets a_1,..., a_6. Note that every move increases the total number of pennies by 1 except a move on a_6. Note that the maximal number
+of pennies in bucket a_i = 2^i-1. So the maximal number of pennies is 2^6-1 = 63. You can end with any integer between 5 and 63 inclusive.
+1. You can end with any integer between 0 and 63 inclusive. 
+2. Leftmost positive bucket monotonically decreases.
+3. Draw in 3-4-5 right triangles on the other sides to construct a square of side length 7, with the diagonal being the line in question. Alternatively,
+draw a reflection of the 3-4-5 triangle on the same side to create a cyclic quadrilateral. Then use Ptolemy's theorem and Pythagorean theorem.
+4. ?
+5. Common trick is to realize that 36x+y must be a power of 2, which is not equal to 1 and similarly with 36y+x. Algebra leads to a contradiction.
+6. Factor k^3-1 = (k-1)(k^2+k+1) and k^3+1 = (k+1)(k^2-k+1). Let f(x) = x^2+x+1 and g(x) = x^2-x+1. Note that g(x+1) = f(x). So the product telescopes,
+leaving only a couple of products at the front which results in 2/3.
+7. Note that (1+w+w^2+...+w^n)(1-w) = 1-w^(n+1)=1+w -> 1+w+w^2+...+w^n = (1+w)/(1-w). Let x = 1+w^2+..+w^(n-1). Then LHS = x(1+w). So x = 1/1-w.
+8. 
