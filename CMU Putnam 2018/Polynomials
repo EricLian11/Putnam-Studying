@@ -1,0 +1,8 @@
+1. Suppose the line is y = ax+b. To find the intersection points, let x^3= ax+b. Then The sum of the roots is 0.
+2. A line can only intersect a polynomial at most its degree number of times. Algebra for the other part
+3. Backwards direction follows immediately from noting that P(z) = Q(z)Q(-z) = Q(-z)Q(z) = P(-z). Forward direction implies that P only has terms 
+of even degree. Follows by algebra
+4. Firstly note that |z| < 1 clearly implies that |b| < 1. If the polynomial admits complex roots, then the constraint of real coefficients implies that 
+the complex roots are conjugates of each other. Denote the roots to be x+yi and x-yi. So b = x^2+y^2, and a = -2x. Note that a+b = x^2+y^2-2x 
+Which equals (x-1)^2+y^2-1 >= -1 -> a+b >= -1 -> a >= -1-b -> -a <= 1+b |a| <= |b|+1. 
+5. 
