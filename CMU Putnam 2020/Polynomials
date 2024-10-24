@@ -1,0 +1,11 @@
+1. Take the integral with bounds 0 and 1 of the polynomial, and note that it evaluates to 0. So there must be a real root. 
+2. Algebra Bash? (Ask)
+3. Bash
+4. Suppose that the multiplicity of a root in a polynomial is k. Then the multiplicity of the root in the derivative must be k-1. The condition in the problem implies that P must contain the 
+distinct roots of P'. Suppose that P has A distinct roots. Then P and P' must have n-A shared roots (corollary of lemma proved in CMU Putnam 2019 Polynomials).
+Since P' has degree n-1, then A = 1. So P has 1 distinct root.
+5. Draw it in the complex plane. Note that P(z) = (z-z_1)(z-z_2) -> |P(z)| = |z_z_1||z_z-2|, which is the product of the distances between a point and the roots. AFSOC WLOG z_1 not equal to 0.
+Contradiction follows
+6. Same as problem from CMU Putnam 2019 Polynomials
+7. Suppose that the roots of P(x) are x_1, x_2,... x_n. Suppose that they are covered by a disk of radius r with center Y. Suppose W is a point such that |W-Y| > r+|k|. Then by triangle inequality:
+|W-Y| <= |W-X_i|+|X_i-y| -> |W-X_i| >= |W-Y| - |X_i-Y| > r+|k|-r = |k|. Note that P'(w)/P(w) = sum 1/(w_x_i) < n/k (the summation has n terms, one for each root counting multiplicity). 
