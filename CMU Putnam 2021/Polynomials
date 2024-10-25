@@ -1,0 +1,8 @@
+1. Well P(1) = 1, P(2) = 2, P(5) = 5, and so on. So there are infinite values of z such that P(z) = z. So P(z)-z is the zero polynomial -> P(z) = z is the only solution
+2. P(1) is an upper bound on the coefficients, and then pick a such that 10^a is greater than P(1) to read off the coefficients.
+3. Suppose that P has A distinct roots. Clearly P' has n-A roots in common with P counting multiplicity. Furthermore suppose that P-1 has B distinct roots. Note that P and P-1 share no roots
+in common. Now (P-1)' = P' shares n-B roots in common with P-1. So P' has at least 2n-A-B roots. Since P' has degree n-1, then A+B >= n+1.
+4. Count in two ways
+5. Take the integral average and bash
+6. ?
+7,Note that P' = P sum 1/(x-ai). Calculate P'' using this definition. Plug these into the equation, reduce, and apply cauchy schwarz.
