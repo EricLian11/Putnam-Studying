@@ -1,0 +1,8 @@
+1. The result is trivially true if n is even. Suppose n is odd. Split n = p *q, where p is prime. Then 2^(p-1) = 1 mod (p_i). Then 2^n-1 = (2^p-1)^q*2^q-1
+=2^q-1. Keep doing this until q is prime. Then 2^(q) = 2 mod q. Since n is odd, then q cannot be 2. So 2^n-1 is not equal to 0 mod n. And we are done. 
+2. Divides (a+mr)^n
+3. ?
+4. A corollary of the Chicken McNugget Theorem is that there are exactly (a-1)(b-1)/2 integers which cannot be expressed as a positive linear combination
+of a and b. So (a-1)(b-1) = 70, which means that a,b = 8,11
+5. n-1 is coprime to 24. Note that 5(-5) = -1, 7(-7) = -1, 11(-11) = -1, and so on. So every coprime pair cancels out mod 24.
+6. 
