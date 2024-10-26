@@ -1,0 +1,14 @@
+1. Note that 2^3 = -1 mod 9, so 2^29 = -4 = 5 mod 9. Denote the missing digit n. Then (1+2...+9) -n = 5 mod 9 -> n = 4 
+2. Note that (4m+1)^2 = 16m^2+8m+1 = 4m(4m-2)+1. AFSOC p is the largest prime of the form 4m-1. 
+Let q = 2^2*3*5*7*11*...*p - 1. Clearly it is not divisible by any prime less than p. Furthermore, note that every prime must either by 
+1 mod 4 or -1 mod 4. Note that it cannot be a product of two primes of the form 4m+1. So it must be divisible by a prime of the form 4m-1, that is
+greater than p. This contradicts the minimality of p. 
+3. ?
+4. (Lazar) The condition implies that 5^N-5^n = 0 (mod 10^n). This is true if and only if 5^N= 5^n (mod 2^n). Thus 5^(N-n) = 1 (mod 2^n). Let 
+N = n + \totient(2^n). Then we are done. 
+5. (n-1)*(n)*(n+1) = a^k. Because n is coprime to n-1 and n+1, then n = b^k, and (n-1)(n+1) = c^k. furthermore n^2-1 = b^(2k) - 1. So 
+n*(n^2-1) = (b^3)^k-b^k not equal to a^k by Fermats last theorem (?)
+9. (Putnam) Forward: 
+Suppose that m = n1(n1+1)/2 + n2(n2+1)/2 = (n_1^2+n_2^2+n_1+n_2)/2. So 4m+1 -> 2n_1^2+2n_2^2+2n_1+2n_2 + 1 = (n_1-n_2)^2+(n_1^2+n_2^2+1)^2
+Backwards: 4m+1 = n_1^2+n_2^2 = 
+
