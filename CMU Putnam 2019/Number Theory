@@ -1,0 +1,17 @@
+1. x^p-1+yx^p-2+...+y^p-1
+2. Note that f(n) = 3^3^3... (n times). Note that 3^3 = 7 mod 10, and 7 = 3 mod 4. So every last digit for n greater than 2 is 7. 
+3. Same thiing but the cycle of last two digits is a lot longer, get 87
+4. Let S be the number of consecutive partitions, and C be the number of pairs that differ by 6. So S+C = 999. Then 6C+S = 999+5C. So it suffices
+to show that 9+5c = 9 mod 10 -> c = 0 mod 2. Furthermore a+b = a-b mod 2 means that the sum of the differences is equivalent to the total sum which is
+1998*1999/2 = 999*1999 = 1 mod 2 -> 999 + 5c = 1 mod 2 -> c = 0 mod 2.
+6. (USAMO, My solution) 
+Firstly note that the a_(k+2) <= (a_(k+1)+a_k)/2, with equality if and only if a_k+1 = a_k. Note that if a_k+1 = a_k, then the sequence is constant
+after those terms. So we see that eventually the sequence will be constant. After trying out a couple of cases, we claim that a_n = gcd(r,s).
+We aim to prove that k = gcd(a_n,a_(n+1)) is constant. 
+Note that k | a_n and k|a_(n+1) -> k | a_n + a_(n+1) -> k | p = greatest odd divisor of a_n + a_(n+1). So 
+p = kq for some odd q that is coprime with a_(n+1)/k by definition of gcd. Thus gcd(a_(n+1), p) = k so the gcd is constant and we are done. 
+7. (USAMO, AOPS Solution).
+Firstly note that a_n = 2^(a_(n-1)). Proceed with contradiction: Let b be the minimal integer for which the problem statement is false. 
+Then by our first note, it implies that the sequence will eventually be cyclic mod b. Let the period of the cycle be k. Note that there are b-1 
+non-zero residues. Because the sequence cannot become constant mod b, then the sequence cannot be 0 mod b. So 1 <= k <= b-1 < b. It follows that 
+the sequence of exponents ccannot become constant mod k, contradicting the minimality of b. 
