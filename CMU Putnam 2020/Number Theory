@@ -1,0 +1,8 @@
+1. a*sqrt(2) + b*sqrt(3) = -c -> 2a^2+3b^2 + 2ab*sqrt(6) = c^2 -> 2a^2+3b^2 - c^2 = 2ab*sqrt(6). The LHS is rational, and the RHS
+is irrational unless ab = 0. If a = 0, then LHS implies a=b=c= 0. Similar with b= 0.
+2. 2*sqrt(6) + 5*sqrt(10) = sqrt(x) + sqrt(y) -> 24+250+40*sqrt(15) = x+y+2*sqrt(xy) => x+y = 274, xy = 6000, so 24,250 is the only solution
+4. (Putnam 1956) Let n have d digits. Let N = 1234567890.. with d+1 0's at the end. Then N+1,...,N+n will contain a multiple of n, and 
+the first 10 digits of N are different. 
+5. m^2-n^2 = r^3 => (m-n)(m+n) = r*r^2 => r*r^2 = ((r^2+r)/2 - (r^2-r)/2)*((r^2-r)/2 + (r^2+r)/2). So m = (r^2+r)/2 and n = (r^2-r)/2
+which holds because r and r^2 have the same parity
+6. = (n^2+3n)(n^2+3n+2) = (n^2+3n)^2 + 2*(n^2+3n) = (n^2+3n+1)^2-1
