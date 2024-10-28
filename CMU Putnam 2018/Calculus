@@ -1,0 +1,6 @@
+1. ?
+2. Suppose p = (cos theta, sin theta). Then Q  = (x,y), where |x| <= |cos theta| and |y| <= |sin theta| if the rectangle is contained in the circle. 
+For a fixed theta, the area of the rectangle is 4|cos theta * sin theta| = 2|sin 2 theta|. Divide by the area of the circle for the probability: 
+2|sin 2 theta|/ pi, then integrate over 0 to 2pi. 
+3. Take the derivative to get f(x) = xf'(x) -> f = ax
+4. 
