@@ -1,0 +1,5 @@
+1. Integral comparison test (diverges)
+2. Cauchy Condensation Test (f converges if and only if f(2^x) converges), converges
+3. Integral comparison test (diverges)
+4. The series is conditionally convergent by alternating series, so it follows by the Rearrangement Theorem/Riemman Theorem
+5. Note that alternating sum of a_n must be convergent. Lump Bn into groups of 3: (-a3+a2-a1) + (a4-a5...), and compare it with the maximum so it converges
