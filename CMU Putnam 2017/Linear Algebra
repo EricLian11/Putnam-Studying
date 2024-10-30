@@ -1,0 +1,5 @@
+1. Row reductions
+2. Note that AB is nilpotent. A property of nilpotent matrices is that all eigenvalues are 0. A property of AB and BA is that they share all nonzero
+eigenvalues. Thus all eigenvalues of BA are 0. So BA is also nilpotent. So BABA = 0
+3. Note that a determinant is 0 if two rows are equal, or two columns are equal. So barbara can make the first and second columns identical.
+4. Pigeonhole
