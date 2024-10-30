@@ -1,0 +1,6 @@
+1. No
+2. Straightforward Application of Jensen's Inequality on f(x) = x^4
+3.Cauchy-Schwarz; equality only holds in the case of the identity permutation
+4. Infinite descent argument; there must be a maximum integer lattice point because we are given that they are all positive, and the average of
+positive integers must be less than or equal to the greatest integer in the average. 
+5. 
