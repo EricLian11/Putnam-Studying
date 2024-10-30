@@ -1,0 +1,6 @@
+1. AFSOC it is bounded upwards by L. Because it is monotonic, then it must converge. Suppose it converges to L. Then L = L + 1/L. So L = infinity, which
+is a contradiction. 
+2. n^-2n
+3. Can be directly proved using the explicit form of Fibonacci
+4. Counting problem 
+5. 
