@@ -1,0 +1,8 @@
+1. Note that eventually a_n will be negative, from then on a_n will be positive and be monotonically decreasing, so it is bounded by 0 which implies
+convergence. To see that it converges to 1, let a_(n+1) = a_n = L and solve. 
+2. If the sequence converges, then it clearly converges to the fixed point of cosine which does not depend on alpha. 
+3. Note that f = sqrt(1+x) is an increasing function. By induction, t_n > t_(n-1). Then t_(n+1) = f(t_n) > f(t_(n-1)) = t_n. Also by induction we can
+show it is bounded above by (1+sqrt(5))/2. So it monotonically increases and bounded above which implies convergence. We see it converges to the fixed
+point 1+sqrt(5)/2
+4. Similar argument as 3
+5. 
