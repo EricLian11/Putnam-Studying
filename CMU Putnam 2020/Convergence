@@ -1,0 +1,4 @@
+1. It suffices to show that sum (ab) converges, which follows from AM-GM on a^2+b^2 and direct comparison. 
+2. Else the sequence will be a positive fraction of the harmonic series, which diverges
+3. Dirichlet's Test: a_n converges implies its partial sums are bounded. Also 1/i decreases monotonically with a limit of 0. So it converges
+4. 
