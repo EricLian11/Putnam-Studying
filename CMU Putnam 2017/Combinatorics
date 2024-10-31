@@ -1,0 +1,6 @@
+1. Bijection between set of wins and set of losses; i.e. each game produces one win and one loss. For the second part, note that 
+L_i = (n-1-w_i), then algebra bash and note that sum w_i = (n choose 2) and the result follows
+2. Consider vertex j. There are d_i choices for i and d_i choices for k. So each vertex has d_i^2 ways to be the middle of the path
+3. Equivalent to showing that a bipartite graph with 2n edges contains a cycle. AFSOC it doesn't. Then it is acylic (tree), which contains at most 2n-1
+edges.
+4. 
