@@ -1,0 +1,5 @@
+1. Assign rooms randomly. If someone knows more than 3 people, put him in the other room, where he will know 3 or less people. 
+2. Moser spindle. Need 4 colors.
+3. AFSOC red does not attain a distance r, and blue does not attain a distance b and WLOG r >= b. Then a circle with red at the center and radius r
+must be completely blue. But then there must be a segment in the circle which attains b -> contradiction
+4. 
