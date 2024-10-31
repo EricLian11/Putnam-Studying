@@ -1,0 +1,6 @@
+1. Consider the following partition: [1,2,4,8,..], [3,6,12,24,..],[5,10,20,...]. There are n odd numbers, so there are n elements in the partition. 
+By pigeonhole, two of the numbers in a n+1 subset must belong to the same element in the partition. 
+2. Note that in order to produce four points where every distance is at least 1/sqrt(2), they must be in different quadrants. The fifth point must be in
+one of the quadrants, so the distance between the fifth point and the original point in that quadrant must be less than 1/sqrt(2)
+3. Note that F can only contain one singleton set X. It follows that F contains all subsets which has X as a subset. This is exactly half the total subsets.
+4. 
