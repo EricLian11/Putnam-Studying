@@ -1,0 +1,5 @@
+1. Reflect the points across the line. It follows by the triangle inequality that the intersection of the diagonals of the convex quadrilateral formed
+by the four points minimizes the sum
+2. Algorithm where you connect each point to the nearest untaken point
+3. Cauchy schwarz using the fact that sum (s_i ) <= 4
+4 .
