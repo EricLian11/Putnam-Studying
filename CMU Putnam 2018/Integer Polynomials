@@ -1,0 +1,3 @@
+1. AFSOC it exists. Clearly the constant term must be prime > 1. Consider f(f(0)). Then you can factor out f(0) from every term. If the result is f(0),
+then continue plugging in factors of f(0) until its composite
+2. constant terms cancel out and then (a-b)|a^n-b^n
