@@ -1,0 +1,10 @@
+1. a. Homer wins if the polynomial has a root of 2012. Note that all terms with even degree must be positive. Homer has the last turn so he wins, noting
+that there are an even number of terms with even degree. 
+2. -> p(x) = 2008 = 2^3*251 -> has 8 positive factors -> 16 positive/negative factors, and
+has at least 81 distinct integer solutions. Note that for every distinct integer solution, q(x) must be
+one of the 16 factors. Suppose that q has a degree of 5. Then there is at most 5 distinct integers such that p(x) = one of the 16 factors.
+Note that 5*16 = 80 so it follows by pigeonhole.
+3. At first I thought the question was asking about polynomials of arbitrary degree. But it's quadratic which makes it easy. Obviously considering
+f(0) implies that the constant term is divisible by 5. Then f(1) = a+b and f(-1) = a-b -> 2a = 5k -> 5 | a and similarly 5 | b.
+4. Just consider quartic residues mod 29 to find that it implies 29|x and 29|y and 29|z. 
+5. 
