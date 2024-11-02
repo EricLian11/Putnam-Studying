@@ -1,0 +1,9 @@
+1. 2^10*3^10*5^0*7^0.
+Essentially the two restrictions imply that each element must be contained in at least one of the sets, but not all three. So for each element, we have 6 choices (A1, A2, A3, A1 ^ A2, A1 ^ A3, A2 ^ A3)
+So 6^10. 
+2. Note that the only parameter is the height of the first inscribed rectangle, because obviously we will just maximize the area of the second rectangle. Note that the area of the second rectangle
+is maximally 1/2 of the triangle produced by the first inscribed triangle. Using similar triangles and taking the derivative with respect to the height of the first inscribed rectangle, we get 
+2/3. 
+3. Note that a_(n+1) n (d) = a_(n) n (d/2). Let P_n = a_(n) n. Then P_(n+1)(d) = (a_(n+1)(n) (d))^2 + 2*(a_(n+1)(n)(d) = p_n(d/2)^2 + 2*p_n(d/2) -> (1+P_(n+1)(d)) = (1+p_n(d/2))^2 
+note that p_0 = d -> (1+P_(n+1)(d)) = (1+d/2^n)^(2^n) -> e^d -> p_n -> e^d-1. (Not my sol)
+4. Intuitively try to find powers of 3 equal to 1 mod 100. note that 49^2 = 1 mod 100, so we see that 3^10^2 = 3^20 = 1 mod 100. Then it is clear that 87 will be the last two digigts
