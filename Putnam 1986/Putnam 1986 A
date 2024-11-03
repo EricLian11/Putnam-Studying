@@ -1,0 +1,9 @@
+1. The condition implies that x^4-13x^2+36 <= 0 -> (x^2-4)(x^2-9) <= 0 -> x must be in the intervals [-3,-2] or [2,3]. Note that the derivative of x^3-3x = 3x^2-3 = 3(x^2-1), which is strictly
+positive on both intervals which means that the function is strictly increasing on both intervals, so the maximum value of the function occurs at the endpoints x = -2 and x = 3. Note that
+(-2)^3-3(-2) = -2 and 3^3-3*3 = 18, so 18 is the max.
+2. Let x = 10^(100). So we are trying to find the floor of x^(200)/(x+3). We try to find the largest polynomial that is less than x^200 which has a root of -3. Note that
+x^(200)-3^(200) satisfies this criterion, and furthermore that 3^200 = 9^100 < 10^100+3. So it suffices to calculate (x^200-3^200)/(x+3). Note that x^(200)-3^(200) = x^200-(-3)^200 
+= (x-(-3))(x^199+x^198*(-3)+x^197*(-3)^2+...+(-3)^199)). Taking the right expression mod 10, it suffices to calculate (-3)^199 mod 10, which is -7 -> the units digit is 3. 
+3. Intuitively we suppose that this sum telescopes. We firstly use the difference of angles formula for cot: cot(A-B) = cot(A)cot(B)+1 / cot(B)-cot(A). Let A = cot^-1 (a) and B = cot^-1 (b) ->
+cot^-1 (a) - cot^-1 (b) = cot^-1 ( ab+1 / b-a). Note that n^2 + n+1 = n(n+1) +1. This gives us the intuition to set a = n and b = n+1 -> cot^-1 ( ab+1 / b-a) = cot^-1 (n) - cot^-1 (n+1). This 
+telescopes to cot^-1(0) = pi/2. 
