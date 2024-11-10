@@ -1,0 +1,5 @@
+1. This problem is the epitome of problem solving strategy. Initially, I was baited by the trivial idea of finding the intersections, especially since adding C and D clearly admits
+(x_1)^3 +... However, it is very difficult to manipulate the resulting equations to find that the intersections are equal. We consider the heuristic that the first Putnam problem
+is generally easy, and see that x(a) - y(b) = c, and y(a)+x(b) = d and we are done. Alternatively, note that x^2+y^2 generally implies magnitude, which implies working with the complex plane. 
+Hence denote z = x+yi and manipulate. 
+2. 
