@@ -1,2 +1,11 @@
 1. Note that the area of the triangle is b * (1-h/2)/2 = bh -> h = 2/5.
-2. 
+2. AFSOC that none of x,y,z, are pairwise equal. Then by the condition given we have: x^2-x+2yz = y^2-y+2zx -> x^2-y^2 = x-y + 2z(x-y) ->
+x+y = 1 + 2z. Symmetrically we have y+z = 1+2x and x+z = 1 + 2y. Summing these equations we get 2(x+y+z) = 3 + 2(x+y+z) which yields 3 = 0. 
+Thus at least one of x,y,z are pairwise equal. WLOG x = y. Clearly if x=y=z, then the ordered triple is just (0,0,0). If z != x,y, then 
+we have x+z = 1+2y= 1+2x -> x-z = -1 -> z-y = 1. So there are 4 ordered triples, and we are done. 
+3. We proceed with induction. Base Case (n=1): Let F = f and G = g, and the condition holds by what we are given in the problem.
+IH: Fix n, and assume that there exists F_n and G_n which satisfies the conditions. 
+IS: By the IH, then u = h-F_n*G_n = 0 (mod p^n). Also by the IH then F_n = f (mod p) and G_n = g (mod p), so it follows that 
+r*F_n + s*G_n = 1 (mod p). Let F_(n+1) = F_n- us and G_(n+1) = G_n- ur. -> F_(n+1)*G_(n+1) = F_n*G_n + u -u(rF_n+sG_n-1) + u^2rs = h (mod p^(n+1))
+and we are done
+4. 
