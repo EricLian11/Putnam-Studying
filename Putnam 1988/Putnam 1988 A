@@ -1,0 +1,5 @@
+1. 6, by geometry and thinking
+2. Just solve for g, noting that integral of g'/g is ln|g|
+3. 
+4. Suppose it is impossible. Famous coloring argument. Consider a triangle with AB = AC = sqrt(3), BC = 1. Then we can create equilateral triangles AXY, BXY with sides 1. X,Y take up two colors, 
+so that means A and B are the same color. Similarly A and C are the same color. Thus B and C are the same color. But they are distance 1, so contradiction. 
