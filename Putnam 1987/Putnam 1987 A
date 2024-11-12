@@ -3,3 +3,7 @@
 is generally easy, and see that x(a) - y(b) = c, and y(a)+x(b) = d and we are done. Alternatively, note that x^2+y^2 generally implies magnitude, which implies working with the complex plane. 
 Hence denote z = x+yi and manipulate. 
 2. 
+Too lazy to do the actual computation, but note that sum a^n = 1-a^(N+1)/(1-a). Take derivative and multiply by a to get the sum of n*a^n. We see that
+we want to find the number i such that 9(1+2*10+3*100+...+i*10^(i-1)) >= 10^1987. We can use the two formulas above to get the explicit form of 
+the term inside the parenthesis. 
+3. DiffEqs; guess the solution to be in the form Ae^x+Bxe^x
