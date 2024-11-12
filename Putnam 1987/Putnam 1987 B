@@ -1,0 +1,4 @@
+1. Let u = x-3, and then consider the resulting integrand x_1. Substitute u = -u, and consider the resulting integrand x_2. Add them together to get 
+integrand of 1, with bounds of integration 1 and -1. So the answer is 1. 
+2. Counting in two ways
+3. 
