@@ -1,0 +1,8 @@
+1. Let x = a-1, y = b-1, z = 1. It follows clearly. 
+2. Manipulate the equations to get that the first equation is (y+1/2)^2 / (1/2)^2 - (x+1)^2 / (1/2)^2 <= 1 and (y-1/2)^2 / (1/2)^2 - x^2/(1/2)^2 <= 1. Plotting these two 
+hyperbolas, we see that we only consider the portion of the hyperbolas that are at or above the x-axis. They have the exact same shape, and the vertex of the second hyperbola is above the first.
+It follows that we only need to show that neither of the two equations cross at any point. AFSOC that they do intersect. So they must satisfy both equations y(y+1) = (x+1)^2 and y(y-1) = x^2, and
+we easily get a contradiction.
+3. 
+4. Note that 2a_n < a_n ^(n/n+1). It follows that a_n < 1/2^(n+1), which converges. So either 2a_n > a_n^(n/n+1), or 1/2^(n+1) > a_n, and we know both 2a_n and 1/2^(n+1) both converge
+so by direct comparison we are done. 
