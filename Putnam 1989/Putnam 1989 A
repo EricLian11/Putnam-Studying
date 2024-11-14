@@ -1,0 +1,4 @@
+1. It is clear that 101 is prime. At this point we can guess that that is the only prime. It is clear that if there is an even amount of 1s in the number, then it is divisible by 101. 
+So we only consider numbers that have an odd number of 1s. Then it can be written in the form: 10^0 + 10^2 +...+10^(4n) = 1+100+100^2 +...+100^(2n) = (100^(2n+1)-1)/99 
+=(10^(2n+1)-1)(10^(2n+1)+1)/9. One of them will be divisible by 9, and then both of them are integers. So we are done.
+2. 
