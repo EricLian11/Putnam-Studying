@@ -1,0 +1,8 @@
+1. 2^n + n! (bad problem)
+2. Yes
+3. By Pick's Theorem, we know that A = i+b/2-1, where i is the number of interior lattice points and b is then number of boundary lattice points. We have that b >= 5 and i >= 0, so it suffices
+to show that i >= 1 or b >= 7. Case on the parity of the coordinates of the vertices (o,o), (o,e), (e,o), (e,e). Note that two vertices must have the same parity by pigeonhole. 
+If the vertices are not adjacent, then the midpoint is an interior lattice point and we are done. Suppose the vertices are adjacent, denoted A and B. The other vertices are C, D, E. 
+The midpoint is a boundary lattice point M. If any of A, C, D, E are the same parity then either we produce another boundary lattice or interior lattice and we are done. If M is the same parity 
+as A, then we can simply take the midpoint of M and A to produce another boundary lattice and we are done. If M is not the same parity as A, then it must have the same parity as one of C,D,E, which
+produces an interior lattice point and we are done.
