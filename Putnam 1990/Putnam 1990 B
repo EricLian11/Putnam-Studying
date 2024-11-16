@@ -1,0 +1,8 @@
+1. Take the derivative wtr x on both sides -> 2f(x)f'(x) = f(x)^2 + f'(x)^2 -> f(x) = f'(x) -> f(x) = Ae^x. Plugging it back into the equation, 
+we get f(x) = +- (1990)e^x
+2. Calculate the first few partial sums to guess a recursive form of S_n = S_(n-1)*(1-zx^n)/(z-x^n). An induction proof shows that this is true. 
+Because of the conditions |z| > 1 and |x| < 1, as n -> infinity, then the denominator tends towards z and the numerator tends towards 1. So for
+sufficiently large n, then it converges to o. 
+3. Firstly note that there are 15^4 possible 2x2 matrices that satisfy the given conditions. Note that the number of diagonal matrices is 15^2. There 
+are 14 non-diagonal matrices with equal elements and 14 matrices with zeros on diagonal and other elements equal. If we pick at least 
+15^4-15^2-25, then two must commute
