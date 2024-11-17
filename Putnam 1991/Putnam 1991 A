@@ -1,0 +1,7 @@
+1. Draw a diagram. Note that the area formed between each successive (1,1) rotation and the point of rotation is a 90 degree sector of a circle. We can use sin area and pythagorean theorem
+to find the area of the triangles formed under the sectors, and add to get 6 + 7pi/2
+2. AFSOC it has an inverse, denoted k. B^2*A + A^3 = A^2*B+B^3 -> (B^2+A^2)*A = (A^2+B^2)*B -> (A^2+B^2)*A = (A^2+B^2)*B -> k(A^2+B^2)*A = k(A^2+B^2) * B -> A = B, which is false.
+3. It can only be true if it is a quadratic; in the form p(x) = A(x-r_1)(x-r_2). AFSOC that p(x) = A(x-r_1)(x-r_2)...(x-r_n), where n > 2. Note that p'(x) = cyc (sum) p(x)/(x-r_i) ->
+p'(x)/p(x) = cyc (sum) 1/(x-r_i). Let x = (r_1+r_2)/2. Then p'(x) = 0 -> p'(x)/p(x) = cyc (sum) 1/(x-r_i) = 0. Compute the first two terms of the sum: 
+2/(r_2-r_1) and 2/(r_1-r_2). Note that the rest of the terms must be strictly negative because of order, which contradicts the fact that the sum should be 0 because the first two terms sum to 0.
+4. 
