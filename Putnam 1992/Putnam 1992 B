@@ -1,0 +1,21 @@
+1. The problem follows from the guess that 1,2,3,4,... is the optimal set. You can show by induction that |A_s| = 2n-3. It is easy to show that 
+|A_s'| >= |A_s|+2
+
+2. Note that 1+x+x^2+x^3 = (1+x)(1+x^2), and apply the binomial theorem. The result follows immediately afterwards
+
+3. Whenever you see a convergence recurrence problem, start with computing the fixed point for intuition. Note that the fixed point is 1+sqrt(1-y^2). 
+clearly if the magnitude of y is greater than 1, the discriminant is negative so there is no fixed point. Which means that it is only possible to
+converge if |y| <= 1. Considering a simple case for intuition, set y = 0. Note that if x > 1+sqrt(1-y^2), then the sequence increases and does not converge.
+So we claim that the sequence only converges if and only if |y| <= 1 and |x| <= 1+sqrt(1-y^2). We have shown from the determinant argument that
+it must diverge if |y| > 1, so it remains to show that the sequence diverges if |y| <= 1 and |x| > 1+sqrt(1-y^2). Let epsilon be such that 
+|x| > 1+sqrt(1-y^2) +epsilon. It follows that a1-a0 > e^2/2. By induction it follows that a_(n+1)-an > e^2/2. So it diverges. In the case that |y| <=1 
+and |x| <= 1+sqrt(1-y^2), it obviously follows that the sequence monotonically decreases and is bounded below by 0, and furthermore every term in the
+sequence is positive except for perhaps the first so converge follows
+
+4. I think this problem is easier than problem 3. Firstly note that p(x) / x^3-x = g(x) + q(x)/x^3-x. We know the remainder is coprime with the denominator,
+so it follows that p(x) / x^3-x = g(x) + a/ x + b/x-1 + c/x+1. Taking the derivative 1992 times, note that g(x) goes to 0 because it must have degree
+less than 1992. So it remains a(x)^(-1993) + b(x-1)^(-1993)+c(x+1)^(-1993) = z -> a(x^2-1)^1993 + b(x^2+x)^1993+c(x^2-x)^1993 = z(x^3-x)^1993
+So it follows that f = a(x^2-1)^1993 and b(x^2+x)^1993+c(x^2-x)^1993, and it reduces to getting this expression to the lowest possible degree.
+To get rid of the 3986th degree, it is necessary for a+b+c =0. To get rid of 3985, it is necessary for b=c. To get rid of the 3984th degree, it
+must be 1993a+(1993 choose 2)b+(1993 choose 2)c = 0, and it follows that there is now no solution to the system of equations. So we can only get rid of 
+up to the 3985th degree, and the lowest possible degree is 3984. 
