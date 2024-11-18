@@ -1,0 +1,13 @@
+1. Only constant if A is a perfect square. Firstly note that the fixed point of the sequence is when a_k = perfect square. Suppose that a_0 = A is not a perfect square. Then the sequence
+never reaches a perfect square because the difference between consecutive perfect squares is odd, so a_k + a_k-m^2 != (m+1)^2
+2. First, work backwards for some intuition. Note f(x)^2+g(x)^2 = 1 -> f(x)f'(x)+g(x)g'(x) = 0.
+Now, working forwards, we take the obvious step of taking the derivative of conditions 1 and 2. This results in f'(x+y) = f'(x)f(y)-g'(x)g(y) and g'(x+y) = f'(x)g(y)+g'(x)f(y). Set x = 0 to get
+f'(y) = -g'(0)g(y) and g'(y) = g'(0)f(y). Trying to fit the equation that we get from working backwards, we see that f(y)f'(y) = -g'(0)f(y)g(y) and g(y)g'(y) = g'(0)f(y)g(y) -> 
+f(y)f'(y) + g(y)g'(y) = 0 -> f(x)^2+g(x)^2 = C for some constant C. Directly computing f(x)^2+g(x)^2 from conditions 1 and 2 we see the result that f(0)^2+g(0)^2 = 1, so f(x)^2+g(x)^2 = 1.
+3. We abuse the Chicken McNugget Theorem (states that for relatively prime m,n, then there is a sufficiently large positive integer for which every integer greater is a positive linear
+combination of m,n). Firstly we note that 4 x 6 rectangle can form a 20 x 6 and 5 x 7 can form 20 x 7. So for sufficiently large n, then every 20 x n rectangle can be formed. 
+Also, the 5 x 7 rectangle can form 35 x 7 and 35 x 5 rectangles -> sufficiently large n, every 35 x n rectangle can be formed. Finally, 42 x 4 and 42 x 5 -> every 42 x n rectangle can be formed
+for sufficiently large n. Finally, for sufficiently large n, every positive integer > n can be expressed as a positive linear combination of 4 and 7. So there is sufficiently large k where
+every multiply of 5 > k can be expressed as a linear combination of 20 and 35. So rectangles in the form 5 x j can be formed for sufficiently large j. Finally, there is sufficiently large m 
+so that linear combination of 5 and 42 produce every integer greater than m, and we are done. 
+4. 
