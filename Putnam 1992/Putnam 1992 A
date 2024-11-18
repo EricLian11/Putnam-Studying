@@ -1,0 +1,14 @@
+1. We see that f(f(0)) = 0 -> f(1) = 0. Then f(f(1)+2) = -1 -> f(2) = - 1. Also f(f(0)+2) = -2 -> f(3) = -2. It follows by a simple induction proof that f(n) = -(n-1) = 1-n for positive n.
+Note that f(f(4)+2) = 2 -> f(-1) = 2. Also f(f(5)+2) = 3 -> f(-2) = 3. So induction shows that f(n) = 1-n for negative n. And we are done
+2. Find the Taylor Series to be (1+x)^a = 1 + ax + a(a-1)/2 * x^2 + a(a-1)(a-2)/3! * x^3 +...
+So we have that the coefficient of x^1992 is (y+1)(y+2)...(y+1992)/1992! -> the integrand is the derivative of (y+1)...(y+1992)/1992!. Plugging in the bounds of integration gives 1993-1 = 1992
+3. 
+4. Rolle's Theorem bash. Firstly note that f(1/n) = n^2/(n^2+1) = 1/1+(1/n)^2 -> f(x) = 1/(1+x^2). Any sort of problem like this admits the first step of denoting g(x) = f(x)-1/(1+x^2).
+Note g(1) = g(1/2)=g(1/3)=....=0 By Rolle's Theorem, g'(c1) = g'(c2) =... = 0, where 1 > c1 > 1/2, 1/2 > c2 > 1/3,... and this telescopes downwards. 
+We can show that there must exist a strictly decreasing sequence x_1, x_2,... which converges to 0 for every k such that d^k/dx^k g(x_1) = g^k/dx^k g(x_2) = ... = 0
+Base Case (n=0): Obviously true because g(1) = g(1/2) = ... = 0
+IH: Fix n, and assume there exists a sequence x_1,x_2,... such that d^n/dx^n g(x_1) = d^n/dx^n g(x_2) = ...=0
+IS: By Rolle's, there exists a sequence y_1, y_2,... where x_i > y_u > x_(i+1), such that d^(n+1)/dx^(n+1) g(y_1) = ... = 0. Note that y_i is strictly decreasing and converges to 0.
+We see that d^n/dx^n g(0) = lim k -> inf d^n/dx^n (x_k) = lim k -> inf 0 = 0
+-> d^n/dx^n f(x) = d^n/dx^n 1/(1+x^2). Using the power series, we get that d^n/dx^n f(0) = (-1)^(2n) n! for even n, and 0 for odd.
+
