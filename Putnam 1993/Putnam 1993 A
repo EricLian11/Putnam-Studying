@@ -1,0 +1,4 @@
+1. No figure provided and i'm really confused about what regions they are indicating so I'm just going to assume that I can do it
+2. It suffices to show that (x_(n+1)+x_(n-1))/x_n is constant. Note that (x_(n+1)+x_(n-1))/x_n = (x_(n+2)+x_(n))/x_(n+1) by the relation, so we are done
+3. Firstly pick a value for f({x_1,..,x_n)} = k. Pick arbitrary values for f(X\X_i), and note that these will deterministically fix the other mappings of the function. Note that
+f(X\X_i) <= f(X) -> if f(X) = 1, then there is 1^n choices for f(X\X_i), and so on. And we are done
