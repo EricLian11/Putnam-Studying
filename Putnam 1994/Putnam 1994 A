@@ -1,0 +1,6 @@
+1. Note that sum n=1 to 2^i = a_0 *(i-1), so it diverges
+2. Interesting question. Natural first response is to integral bash, but this leads to nowhere. Take a step back and consider another approach. When tackling ellipse problems always consider
+scaling it to a circle. Scale the ellipse vertically by a factor of 3, so it becomes a circle with radius 3. Note that y=1x/2 becomes y = 3x/2 under this transformation. So under 
+this scaling, m = 2/3. Scaling it back we have m = 2/9.
+3. Draw points on the triangle boundary with distance 2-sqrt(2) from the vertices and coloring argument. Note that I was really confused on this problem because I thought it said exactly
+2-sqrt(2) and not at least
