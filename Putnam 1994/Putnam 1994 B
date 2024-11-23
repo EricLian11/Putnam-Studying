@@ -1,0 +1,5 @@
+1. Bash
+2. Pretty easy problem. Take the second derivative, and note that a quartic polynomial that satisfies the condition of four collinear points must have two points of inflection. The determinant of 
+the second derivative is 27^2 - 24c > 0 -> c < 9*27/8 = 30.375
+3. Really easy, if you remember the trick that the integral of f'(x)/f(x) is ln(f(x)). Firstly, note that f'(x) > f(x) -> f'(x)/f(x) > 1 because f is positive. Taking the integral of both sides,
+we get ln(f(x)) > x + C -> f(x) > e^(x+C). Any power exponent that is greater than 1 will outgrow e^(x+C) as x approaches infinity. So k <= 1. 
