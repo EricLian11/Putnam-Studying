@@ -1,0 +1,4 @@
+1. Note that at least four values of x must have the same pi(x) value equality if (partition of sizes 2,3,4). Consider the elements in the partition of size 4, and note that they cannot all
+have different pi'(x) values, since 1+2+3+4 = 10  > 9, so by pigeonhole two of them must have the same pi'(x) value and we are done
+2. 
+3. n= 2 -> 45^2*10 by symmetry
