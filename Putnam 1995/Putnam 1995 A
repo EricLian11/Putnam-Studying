@@ -1,0 +1,4 @@
+1. AFSOC a,b in T but ab in U and c,d in U but cd in T. Then abcd in U and abcd in T, which is a contradiction
+2. NEW TRICK: The binomial series expansion: (1+x)^n for |x| < 1 and n complex = 1+nx+n(n-1)/2 *x^2+... 
+-> sqrt(1+x) = 1+x/2+O(x^2). Plug this into the integrand and we get the result that the integral only converges if and only if a =b 
+3. 
