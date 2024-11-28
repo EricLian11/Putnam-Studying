@@ -1,0 +1,6 @@
+1. Write the number of selfish subsets of small values of n, denote them as f_n. Observe that it follows the fibonacci sequence. Counting in 
+two ways type proof follows.
+2. Interesting trick. Firstly it immediately suggests taking the natural log of the inequality. From here, we consider the sum ln(1)+ln(3)+...+ln(2n-1).
+Note ln(1) = 0. Then 2(ln(3)+...+ln(2n-1)) is bounded aove and below by the integral of lnx from 1 to 2n-1, and 3 to 2n+1 respectively by estimations
+with rectangles of width 2. 
+3. 
