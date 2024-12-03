@@ -1,0 +1,6 @@
+1. Simple Euclidean Geometry
+2. Examine the behavior for small values of n, and note that after a complete round of turns, every person will have 2 except the first person to move, who will either have 3 or 4. Note that each 
+person will have -1, +1 after turns... so it terminates if and only if the number of people left after the first complete round is a power of 2
+3. 
+5. Really interesting! Note that if a1 not equal a2, then the solution will come in pairs because we can switch a2 and a1. So it will be even, which does not contribute to the parity. So only consider
+if a1=a2, a3=a4,a5=a6,a7=a8,a9=a10. Then simply with this again, and again, and get that it is odd
